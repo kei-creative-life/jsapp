@@ -6,24 +6,29 @@
   </head>
 
   <body>
-    <div>
+    <div class="input-area">
       <input type="text" placeholder="TODOを入力" />
       <button>追加</button>
     </div>
-    <div>
-      <p>未完了のTODO</p>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
       <ul>
-        <div>
+        <div class="list-row">
+          <li>TODOです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+        <div class="list-row">
           <li>TODOです</li>
           <button>完了</button>
           <button>削除</button>
         </div>
       </ul>
     </div>
-    <div>
-      <p>完了したTODO</p>
+    <div class="complete-area">
+      <p class="title">完了したTODO</p>
       <ul>
-        <div>
+        <div class="list-row">
           <li>TODOでした</li>
           <button>戻す</button>
         </div>
