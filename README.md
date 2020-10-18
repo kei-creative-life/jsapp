@@ -1,2 +1,2 @@
-# jsapp
+# jstry
 Created with CodeSandbox
